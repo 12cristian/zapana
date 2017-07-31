@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+/*
+.fondo{
+background: -webkit-linear-gradient(red, blue);
+background: -o-linear-gradient(red, blue); 
+background: -moz-linear-gradient(red, blue); 
+background: linear-gradient(red, blue);
+}*/
+.fondo{
+    background: orange;
+}
+
+
+.banner{
+    width: auto;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.imgBanner{
+    z-index: 100;
+}
+.banner .tabla1{
+    z-index: 50;
+}
+h1, h2{
+    text-align: center;
+    color: #0B0D9B;
+}
+.texto02{
+    font-family: 'Abril Fatface', cursive;
+  background: linear-gradient(rgb(121, 159, 231),rgb(196, 251, 254));
+  -webkit-background-clip: text;
+    color: transparent;
+    font-size: 30px;
+    
+}
+.titulo{
+  background: linear-gradient(rgb(121, 159, 231),rgb(196, 251, 254));
+    height: 50px;
+}
+
+td{
+    margin: 15px;
+    padding-left: 15px;
+    padding: 10px;
+}
+
+.boton1{
+    width: 100px;
+    height: 20px;
+background-color: #2dc234;
+background-image: -webkit-linear-gradient(rgba(41, 150, 47, .8), rgba(45, 194, 52, .2));
+background-image: -moz-linear-gradient(rgba(41, 150, 47, .8), rgba(45, 194, 52, .2));
+background-image: -o-linear-gradient(rgba(41, 150, 47, .8), rgba(45, 194, 52, .2));
+background-image: linear-gradient(rgba(41, 150, 47, .8), rgba(45, 194, 52, .2));
+-ms-border-radius:8px;
+-webkit-border-radius: 8px;
+-moz-border-radius: 8px;
+border-radius: 8px;
+-webkit-box-shadow: 0 8px 0 #197b1d, 0 10px 20px rgba(0, 0, 0, .4);
+-moz-box-shadow: 0 8px 0 #197b1d, 0 10px 20px rgba(0, 0, 0, .4);
+box-shadow: 0 8px 0 #197b1d, 0 10px 20px rgba(0, 0, 0, .4);
+color: #fff;
+display: inline-block;
+font-family: 'Abril Fatface', cursive;
+font-size: 25px;
+line-height: 1;
+padding: 15px 25px;
+text-decoration: none;
+text-shadow: 0 -1px 1px rgba(25, 123, 29, .7);
+}
+
+.boton1:active{
+/* Disminiumos la cantidad de sombras */
+-webkit-box-shadow: 0 5px 0 #197b1d, 0 5px 10px rgba(0, 0, 0, .4);
+-moz-box-shadow: 0 5px 0 #197b1d, 0 5px 10px rgba(0, 0, 0, .4);
+box-shadow: 0 5px 0 #197b1d, 0 5px 10px rgba(0, 0, 0, .4);
+/* Movemos ligeramente el botón hacia abajo */
+position: relative;
+top: 5px;
+}
+
+
+
+.table02{
+    width: 100%;
+    
+}
+.table02 .celda{
+    width: 50%;
+    text-align-last: center;
+}
